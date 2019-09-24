@@ -14,7 +14,7 @@ const App = () => {
       })
     )
   }, []);
-  console.log(mapboxToken);
+
   const Map = ReactMapboxGl({
     accessToken: mapboxToken,
   });
