@@ -1,0 +1,17 @@
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 400px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ecf0f1; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.map {
+  margin-left: 390px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}

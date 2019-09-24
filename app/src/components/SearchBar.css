@@ -1,0 +1,12 @@
+.searchBar input[type=text] {
+  width: 80%;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  font-size: 17px;
+  font-style: oblique;
+  text-align: left;
+  font-weight: 200;
+  padding-left: 10px;
+}
