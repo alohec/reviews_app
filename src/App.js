@@ -8,7 +8,7 @@ const App = () => {
   const [mapboxToken, setToken] = useState("undefined");
 
   useEffect(() => {
-    fetch('/mapbox').then(response =>
+    fetch('https://desolate-earth-97056.herokuapp.com/mapbox').then(response =>
       response.json().then(data => {
         setToken(data);
       })

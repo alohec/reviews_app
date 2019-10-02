@@ -17,7 +17,7 @@ const SearchBar = () => {
   const [suggestions, setSuggestions] = useState();
 
   useEffect(() => {
-    fetch('/restaurants').then(response =>
+    fetch('https://desolate-earth-97056.herokuapp.com/restaurants').then(response =>
       response.json().then(data => {
         setRestaurants(data);
         setFuse(new Fuse(data, options));
