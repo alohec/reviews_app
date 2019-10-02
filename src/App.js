@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import './App.css';
 
 const App = () => {
-  const [mapboxToken, setToken] = useState("token");
+  const [mapboxToken, setToken] = useState("undefined");
 
   useEffect(() => {
     fetch('/mapbox').then(response =>
